@@ -1,0 +1,42 @@
+{
+  "name": "hello-react-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/react": "^15.6.5",
+    "@types/react-dom": "^0.14.23",
+    "@types/requirejs": "^2.1.31",
+    "immutable": "^3.8.1",
+    "moment": "^2.17.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.1",
+    "ts-loader": "^2.0.0",
+    "autoprefixer": "^6.5.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.0.0",
+    "raw-loader": "^0.5.1",
+    "postcss-loader": "^1.2.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "@types/rx": "^4.0",
+    "rwwa-rx-state-machine": "^1.0.17",
+    "rx": "^4.1.0",
+    "typed-immutable-record": "0.0.6"
+  }
+}

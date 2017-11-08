@@ -1,0 +1,279 @@
+.root {
+  font-size: 12px; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .root {
+    font-size: 24px; } }
+
+.guptabactive {
+  background: #fff;
+  color: #333;
+  display: block;
+  padding: .85em .5em; }
+
+.guptabinactive {
+  background: #713d90;
+  color: #fff;
+  display: block;
+  padding: .85em .5em;
+  border-right: 1px solid #552d6c;
+  border-left: 1px solid #552d6c; }
+
+.cardcontainer {
+  max-width: 64em;
+  margin: 0 auto; }
+
+.cardbottomonly {
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  margin-bottom: 1px; }
+
+.cardtitle {
+  background-color: #e8e8e8;
+  color: #552d6b;
+  font-weight: bold;
+  padding: .5em .8em;
+  font-size: 1.4em; }
+  .cardtitle .winprice {
+    color: #000;
+    font-weight: normal; }
+
+.cardTopRating {
+  padding: .6em 1em; }
+
+.cardAllRatingRow {
+  padding: 1em .5em; }
+
+.wordbreak {
+  word-break: break-word;
+  hyphens: auto; }
+
+.breakout {
+  white-space: nowrap; }
+
+.allratingHeader .winprice::after,
+.cardTopRatingRow .winprice::after {
+  content: '';
+  border-right: 1px solid #cecece;
+  width: 100%;
+  display: inline-block;
+  height: 50%;
+  margin-top: -1.5em; }
+
+.allratingHeader {
+  color: #552d6b;
+  font-weight: bold;
+  padding: .5em;
+  font-size: 1.4em;
+  margin-bottom: 1px;
+  padding-left: 1.3em; }
+  .allratingHeader .winprice {
+    color: #000;
+    font-weight: normal; }
+  .allratingHeader .winprice::after {
+    margin-top: -1em; }
+
+@media only screen and (min-device-width: 768px) {
+  .allratingHeader {
+    padding-left: .5em; } }
+
+.trotRow {
+  margin-bottom: -.5em; }
+
+.winheader {
+  vertical-align: middle;
+  font-weight: normal; }
+
+.oddsprice {
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 50%; }
+
+.scratchedCard {
+  color: #888; }
+
+.purpleprice {
+  color: #552d6b; }
+
+.gupprice {
+  color: #004e9d;
+  font-weight: bold; }
+
+.fixedpriceicon {
+  height: 1.4em;
+  width: 1.4em;
+  display: inline-block;
+  vertical-align: top;
+  background-size: 90%;
+  background: red; }
+
+.fixed-price::after {
+  content: '';
+  border-right: 1px solid #cecece;
+  width: 100%;
+  display: inline-block;
+  height: 40%;
+  margin-top: -1.3em; }
+
+.giddyUpLogoTableHeader {
+  height: 1.4em;
+  background: blue;
+  background-size: 7em 1.4em; }
+
+.tachomove {
+  stroke-dasharray: 126;
+  stroke-dashoffset: 126;
+  animation: tachomove .5s ease-out forwards;
+  stroke: #004e9d;
+  position: absolute;
+  z-index: 1; }
+  .tachomove.orange {
+    stroke: #ff9600;
+    animation: tachomove .3s linear forwards;
+    position: absolute;
+    z-index: 2; }
+
+@keyframes tachomove {
+  0% {
+    stroke-dashoffset: 126; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+.silk {
+  background-size: cover;
+  display: inline-block;
+  height: 2.5em;
+  width: 2.1em; }
+
+.starternumber {
+  display: block;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin: 0;
+  text-align: center; }
+
+.overviewDivider {
+  border-top: 1px solid #cecece; }
+
+.ratingStar {
+  width: 9.5em;
+  padding-bottom: .25em; }
+
+.raceConfidence {
+  font-weight: bold;
+  vertical-align: middle; }
+
+.raceConfidencePercent {
+  color: #552d6b;
+  font-size: 1.6em; }
+
+.fobtoteswitch {
+  padding: 2px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 50px;
+  height: 30px; }
+  @media only screen and (min-device-width: 768px) {
+    .fobtoteswitch {
+      width: 65px;
+      height: 40px; } }
+
+.pbquarterem {
+  padding-bottom: .25em; }
+
+.ptquarterem {
+  padding-top: .25em; }
+
+.odds-container {
+  border-right: 1px solid #cecece;
+  max-width: 5em;
+  width: 100%;
+  float: right; }
+
+.odds {
+  width: 200%;
+  transition-property: transform;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out; }
+
+.oddsToggle {
+  transition-property: cx;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out; }
+
+.ios-svg-height-fix {
+  height: 0;
+  position: relative; }
+  .ios-svg-height-fix svg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+
+.raceTimer {
+  display: inline-block;
+  position: relative;
+  top: .1rem;
+  height: 1rem;
+  width: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  background-image: none; }
+
+.orangeBG {
+  background-color: #e87722; }
+
+.redBG {
+  background-color: #e84c3d; }
+
+.greenBG {
+  background-color: #6ed234; }
+
+.raceTimerText {
+  display: inline-block;
+  margin-left: .5rem;
+  color: #fff; }
+
+.raceName {
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bold;
+  vertical-align: middle; }
+
+.quaddieOutlayHeader {
+  font-weight: bold; }
+
+.quaddieOutlay {
+  background: #666666;
+  text-align: center;
+  color: #fff; }
+
+.cardGoodThingsRow {
+  padding: 0.5em .5em;
+  font-weight: normal;
+  background-color: #fff;
+  box-shadow: 0 -1px 0 0 #eeeeee, 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24); }
+
+.goodThingsContent {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: none;
+  border-spacing: .2em;
+  box-sizing: border-box;
+  border: none;
+  line-height: normal;
+  font-weight: normal;
+  width: 100%;
+  height: 100%; }
+
+.barrierImage {
+  height: 1.4em;
+  background: green;
+  background-size: 7em 1.4em; }
+
+.favouriteRunner {
+  height: 1.4em;
+  background: orange;
+  background-size: 7em 1.4em; }
